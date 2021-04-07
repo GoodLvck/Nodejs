@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "introducción a nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodLvck/Nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "GoodLvck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoodLvck/Nodejs/issues"
+  },
+  "homepage": "https://github.com/GoodLvck/Nodejs#readme"
+}

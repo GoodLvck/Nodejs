@@ -1,10 +1,14 @@
-const fs = require('fs');
+const http = require('http');
+const colors =  require('colors');
 
-fs.writeFile('./texto.txt', 'linea uno', function (err){
-    if (err) {
-        console.log(err);
-    }
-    console.log('Archivo creado');
+const handleServer = function(req, res){
+    res.writeHead(200, { 'Content-type' : 'text/html' });
+    res.write('<h1>Hola Mundo desde Nodejs</h1>');
+    res.end();
+}
+
+const server = http.createServer(handleServer);
+
+server.listen(3000, function(){
+    console.log('Server on port 3000'.green);
 });
-
-console.log('Última línea de código');
