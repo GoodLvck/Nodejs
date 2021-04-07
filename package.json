@@ -4,11 +4,13 @@
   "description": "introducción a nodejs",
   "main": "index.js",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "desarrollo": "node index.js"
   },
   "repository": {
     "type": "git",
